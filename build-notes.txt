@@ -1,0 +1,7 @@
+To build:
+javac -source 1.5 -target 1.5 -d bin *.java
+   or
+javac -source 1.5 -target 1.5 -d bin -cp bin Combinator.java
+
+To Jar:
+jar cvfm Combinations.jar Manifest.txt -C bin .
